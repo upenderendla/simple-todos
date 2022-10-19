@@ -53,7 +53,7 @@ class SimpleTodo extends Component {
     return (
       <div className="todo-items-container">
         <div className="todo-container">
-          <h1 className="todo-heading">Simple Todo</h1>
+          <h1 className="todo-heading">Simple Todos</h1>
           <ul>
             {todoList.map(eachTodo => (
               <TodoItem
