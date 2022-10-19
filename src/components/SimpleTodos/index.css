@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.todo-items-container {
+  background-color: #ffc2a0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 1140px;
+}
+.todo-heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
